@@ -36,34 +36,12 @@ This project develops and evaluates fairness-aware deep learning models for pred
 - Gender (binary)
 - Age group: under 40, 40-60, over 60
 
-## Results Summary
 
-### Stroke Dataset — Age Fairness (EOD, lower is better)
-
-| Method | EOD | Recall |
-|--------|-----|--------|
-| Baseline NN | 0.91 | 0.82 |
-| Reweighing | 0.61 | Slight decrease |
-| Adversarial Debiasing | 0.26 | Moderate decrease |
-| Threshold Optimisation | 0.31 | Slight decrease |
-
-### Heart Disease Dataset — Age Fairness (EOD, lower is better)
-
-| Method | EOD | Recall |
-|--------|-----|--------|
-| Baseline NN | 0.40 | 0.91 |
-| Reweighing | 0.25 | Slight decrease |
-| Adversarial Debiasing | 0.34 | Minimal decrease |
-| Threshold Optimisation | 0.22 | Slight decrease |
 
 ### Key Finding
-SMOTE worsens age fairness in stroke prediction (EOD increases from 0.87 to 0.91) because synthetic samples are generated predominantly from older patients who make up the majority of stroke cases.
+SMOTE worsens age fairness in stroke prediction because synthetic samples are generated predominantly from older patients who make up the majority of stroke cases.
 
-## SHAP Analysis
 
-SHAP values compare feature importance between baseline and adversarial NN for both datasets:
-- Stroke: age remains the top predictor; gender importance drops after adversarial debiasing
-- Heart: clinical features (ST_Slope, ChestPainType) dominate; age importance increases post-debiasing
 
 ## Requirements
 
