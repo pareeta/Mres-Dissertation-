@@ -4,7 +4,7 @@ A Masters dissertation project implementing bias mitigation techniques in custom
 
 ## Overview
 
-This project develops and evaluates fairness-aware deep learning models for predicting stroke and heart disease. Three bias mitigation strategies are compared: pre-processing (reweighing), in-processing (adversarial debiasing), and post-processing (threshold optimisation). Fairness is measured using Equalised Odds Difference (EOD) across age groups.
+This project develops and evaluates fairness-aware deep learning models for predicting stroke and heart disease. Three bias mitigation strategies are compared: pre-processing (reweighing), in-processing (adversarial debiasing), and post-processing (threshold optimisation). Fairness is measured using Equal Opportunity Difference (EOD) across age groups.
 
 ## Datasets
 
