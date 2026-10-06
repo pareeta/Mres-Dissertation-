@@ -1,6 +1,6 @@
 # Fairness-Aware Neural Networks for Stroke and Heart Disease Prediction
 
-A Masters dissertation project implementing bias mitigation techniques in custom neural networks for clinical risk prediction, with fairness evaluation across age and gender groups.
+A Research dissertation project implementing bias mitigation techniques in custom neural networks for clinical risk prediction, with fairness evaluation across age and gender groups.
 
 ## Overview
 
